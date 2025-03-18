@@ -38,16 +38,25 @@ namespace Lab_1_Exercises
 					case 3:
 						// exercise 3
 						Console.Clear();
+						Console.WriteLine("Exercise 3");
+						Exercise3.menu();
+						Exercise3.choice = -1;
 						returnCmd();
 						break;
 					case 4:
 						// exercise 4
 						Console.Clear();
+						Console.WriteLine("Exercise 4");
+						Exercise4.menu();
+						Exercise4.choice = -1;
 						returnCmd();
 						break;
 					case 5:
 						// exercise 5
 						Console.Clear();
+						Console.WriteLine("Exercise 5");
+						Exercise5.menu();
+						Exercise5.input = null;
 						returnCmd();
 						break;
 					default:
